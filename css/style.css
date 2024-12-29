@@ -1,25 +1,23 @@
-h1{
-    font-size: 80px;
-    font-weight: 900;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    margin-top: 50px;
-    margin-bottom: 35px;
-    color: black;
+body {
+    background: #24353f;
+    font-family: 'Titillium Web', sans-serif;
 }
-p{font-weight: 500;
-    font-size: 35px;
-    margin-bottom: 30px;
-    margin-top: 15px;
-    color: black;
-    font-family:serif;
+h1 {
+    color: #17a2b8;
 }
-button {
-    width: 250px;
-    height: 80px;
-    background-color: blue;
-    color: white;
-    font-size: 12px;
-  }
-  button:hover{
-    background-color: green;
-  }
+.group {
+    box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
+}
+input,
+textarea {
+    background-color: transparent !important;
+    color: #fff !important;
+}
+input::placeholder,
+textarea::placeholder {
+    color: rgb(182, 182, 182) !important;
+}
+input:focus,
+textarea:focus {
+    box-shadow: none !important;
+}
